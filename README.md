@@ -1,5 +1,4 @@
 # ITFDN100-Mod07.1-
-Files for Module 7
  #### Files for Module 7
 
  Date: 11.21.19
