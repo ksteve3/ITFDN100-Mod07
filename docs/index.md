@@ -1,39 +1,51 @@
+# Title
 
-# ITFDN100-Mod07
- #### Files for Module 7
+ 
+ Dev: KStevens
+ 
+ Date: 11.20.2019
+ 
+ GitHub Markdown // Index.md Template 
+ 
+  Reference: https://www.youtube.com/watch?v=4IkIdXJBC6o&feature=youtu.be, 1:23:24
+  
 
- Date: 11.21.19
- 
- Descprition: File & Assignemnet documents for Module07
- 
- Dev: Kstevens
- 
- ITFDN100 A
- 
- Assignment07
- 
-## Reference Docs for Module07
- 
- _Mod7PythonProgrammingNotes.pdf | https://canvas.uw.edu/courses/1342958/modules/items/9973246
- 
- Lab7-1_Starter.py | https://canvas.uw.edu/courses/1342958/modules/items/9973388
- 
- Assignment07.pdf | https://canvas.uw.edu/courses/1342958/modules/items/9973247
- 
- Module07 Course Video  | https://youtu.be/4IkIdXJBC6o
- 
+## Structured Error Handling (Try-Except)
+When you are programming, you fix your bugs immediately and make sure the code
+runs smoothly. However, it often happens that other people introduce new bugs
+when they use your program.
+
+### Raising Custom Errors
+Python automatically generates errors based on conditions defined by the
+Python Runtime. However, you can also "raise" errors based on custom
+conditions (Listing 13).
+
+```
+# ------------------------------------------------- #
+# Title: Listing 13
+# Description: A try-catch with manually raised errors
+# ChangeLog: (Who, When, What)
+# KStevens,11.20.2019,Created Script
+# ------------------------------------------------- #
+try:
+ new_file_name = input("Enter the name of the file you want to make: ")
+ if new_file_name.isnumeric():
+ raise Exception('Do not use numbers for the file\'s name')
+except Exception as e:
+ print("There was a non-specific error!")
+print("Built-In Python error info: ")
+ print(e, e.__doc__, type(e), sep='\n')
+```
+#### Listing 13
+
+![Github pages test image](https://ksteve3.github.io/ITFnd100-Mod07/Snips/test%20github%20image.PNG "Github pages test image")
+#### Figure 13/ Github Test page. The Github Test page image.
+
+![Remote images](https://i.ytimg.com/vi/l3oPTo4vCXI/maxresdefault.jpg "Remote images")
+#### Remote images/ Github Test page. The Remote image.
 
 
-## Topics Covered in ITFDN100 Mod07
 
-- Benefits of putting built-in Python command into functions
-- Benefits of using structured error handling
-- Differences between a text file and a binary file
-- How Exception class is used
-- How to "derive" a new class from the Exception class
-- Creating a class derived from Exception classes
-- Markdown languages
-- Using Markdown on a GitHub webpages
-
+```
 
 
