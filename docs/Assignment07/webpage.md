@@ -14,15 +14,17 @@
 Pickling | Figure 2.5
 
 
-![Pickling | Figure 2.5](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.5/2.5%20pickling%20and%20scaling%20code%20example.png "Pickling | Figure 2.5")  
-Pickling | Figure 2.5
-
-![Pickling | Figure 2.1](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.1/2.1-copyreg_example.PNG "Pickling | Figure 2.1")Pickling | Figure 2.1
-
+![Pickling | Figure 2.1](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.1/2.1-copyreg_example.PNG "Pickling | Figure 2.1")  Pickling | Figure 2.1
 
 ![Pickling | Figure 2.2](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.2/2.2%20output_pickling%20unpickling.png "Pickling | Figure 2.2 ")  Pickling | Figure 2.2
 
-![Pickling | Figure 2.4.1](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.4/2.4.1%20Output-%20Understanding%20python%20picking%20with%20example%20.png "Pickling | Figure 2.4.1 ")  Pickling | Figure 2.4.1
+![Pickling | Figure 2.4.1](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.4/2.4.1%20Output-%20Understanding%20python%20picking%20with%20example%20.png "Pickling | Figure 2.4.1 ")  
+Pickling | Figure 2.4.1
+
+ 
+![Pickling | Figure 2.5](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.5/2.5%20pickling%20and%20scaling%20code%20example.png "Pickling | Figure 2.5")  
+Pickling | Figure 2.5
+
 
 ![Pickling | Figure 2.5](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.5/2.5%20pickling%20and%20scaling%20code%20example.png "Pickling | Figure 2.5 ")  Pickling | Figure 2.5
 
@@ -67,6 +69,7 @@ Pickling | Figure 2.5
 ![Example 7.3 | Figure 3.3](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Exception%20Handling/7.3/PyCharm-%207.3_3.3-multiple%20built-in%20exceptions%20-%20output%20Annotation%202019-11-23%20201144.png "Exception Handling 7.3 | Figure 3.3 ")  Example 7.3 | Figure 3.3
 
 ![Example 7.3 | Figure 3.1](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Exception%20Handling/7.3/Rendered%207.3%20figure%203.1%20-%20builtin%20exceptionsAnnotation%202019-11-23%20200626.png "Exception Handling 7.3 | Figure 3.1 ")  Example 7.3 | Figure 3.1
+
 
 
 
