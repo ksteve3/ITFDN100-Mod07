@@ -10,8 +10,7 @@
  
  Assignment07
  
- ![Pickling | Figure 2.7.2](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.7/2.7.2-%20pickle.dumps-output.png "Pickling | Figure 2.7.2")Pickling | Figure 2.7.2
- ![Pickling | Figure 2.1](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.1/2.1-copyreg_example.png "Pickling | Figure 2.1")Pickling | Figure 2.1
+![Pickling | Figure 2.1](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.1/2.1-copyreg_example.PNG "Pickling | Figure 2.1")Pickling | Figure 2.1
 ![Pickling | Figure 2.2](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.2/2.2%20output_pickling%20unpickling.png "Pickling | Figure 2.2")Pickling | Figure 2.2
 ![Pickling | Figure 2.4.1](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.4/2.4.1%20Output-%20Understanding%20python%20picking%20with%20example%20.png "Pickling | Figure 2.4.1")Pickling | Figure 2.4.1
 ![Pickling | Figure 2.5](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.5/2.5%20pickling%20and%20scaling%20code%20example.png "Pickling | Figure 2.5")Pickling | Figure 2.5
