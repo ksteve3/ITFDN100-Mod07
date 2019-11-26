@@ -10,7 +10,7 @@
  
  Assignment07
  
- ![Pickling | Figure 2.7.2](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.7/2.7.2-%20pickle.dumps-output.png "Pickling | Figure 2.7.2")### Pickling | Figure 2.7.2
+ ![Pickling | Figure 2.7.2](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.7/2.7.2-%20pickle.dumps-output.png "Pickling | Figure 2.7.2") Pickling | Figure 2.7.2
 
 
 ## Assignment07:
