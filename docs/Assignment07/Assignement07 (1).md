@@ -1,3 +1,5 @@
+# Exception Handling & Pickling
+
 Kate Stevens
 
 November 20, 2019
@@ -5,8 +7,6 @@ November 20, 2019
 IT FDN 100 A
 
 Assignment07
-
-# Exception Handling & Pickling
 
 *Assignment07: Research and document your knowledge about the use and benefits of the Pickle module and exception handling in Python. The full assignment and further notes following this week’s discussions can be viewed or downloaded here: **[Assigment07.pd*f](https://canvas.uw.edu/courses/1342958/modules/items/9973247)* (external link), **[_Mod7PythonProgrammingNotes.pd*f](https://canvas.uw.edu/courses/1342958/modules/items/9973246)* (external link).*
 
