@@ -54,11 +54,18 @@ This Python programming tutorial covers how to pickle objects in Python.
 The pickle module implements binary protocols for serializing and de-serializing a Python object structure. “Pickling” is the process whereby a Python object hierarchy is converted into a byte stream, and “unpickling” is the inverse operation, whereby a byte stream (from a binary file or bytes-like object) is converted back into an object hierarchy. Pickling (and unpickling) is alternatively known as “serialization”, “marshalling,” [1] or “flattening”; however, to avoid confusion, the terms used here are “pickling” and “unpickling”.
 
 Warning! No security on pickles
+
+![Assignment07-Images](https://ksteve3.github.io/ITFnd100-Mod07/Assignment07/snips/Pickling/2.7/2.7.2-%20pickle.dumps-output.png "Pickling | Figure 2.7.2")
+#### Pickling | Figure 2.7.2
+
  
 
 
 
 ## Sources
+https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Exception%20Handling/7.1/PyCharm_Input-Output-Example-7.1_Figure-1.4%20-SOLUTION%20-%20Annotation%202019-11-23%20115512.png
+
+https://ksteve3.github.io/ITFnd100-Mod07/Assignment07/snips/Pickling/2.7/2.7.2-%20pickle.dumps-output.png
 
 
 ##### Python Pickle Tutorial Resource List (Compiled)
@@ -66,6 +73,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vTFel2-8hzvknNPtJF_e_WGJuCEDRUhx
 
 ##### Python Exception Handling Tutorial Resource List (compiled)
 https://docs.google.com/spreadsheets/d/e/2PACX-1vRnad3aZB7_j9aKOajRgzOf3bGkSlcJ_NSVobVJnApOc_f7yzTMFPAHcjIhD6IxhiaIhZpEK6UEiXn1WBTG3sg/pub?output=xlsx
+
 
 
 
