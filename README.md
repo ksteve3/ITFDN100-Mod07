@@ -1,8 +1,7 @@
 # ITFDN100/Mod07
  #### Files for Module 7
-
-<a href="https://drive.google.com/uc?export=view&id=XXX"><img src="https://drive.google.com/uc?export=view&id=XXX" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
-
+ *[Source code: Lib/Pickle.txt](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.1/2.1%20-%20Listing%2016%20.txt)*[#]**(external link)
+ 
  Date: 11.21.19
  
  Descprition: File & Assignemnet documents for Module07
