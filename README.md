@@ -1,8 +1,29 @@
 # ITFDN100/Mod07
  #### Files for Module 7
  
-  *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/Warning%20messages/Figure%2015.png)*[#]
+  *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_7-1-1/master/docs/Snips/Pickle/2.5/2.5a_Figure-27.png)*[#]**(external link)
+
  
+ *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.1/2.1%20-%20Figure%2017.png)*[#]**(external link)
+ 
+ *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.1/2.1%20-%20Figure%2017.png)
+ 
+ *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.2/2.2%20-%20Figure%2020%20.png)*[#]**(external link)
+ 
+ *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.3/2.3c_undocumented.png)*[#]**(external link)
+ 
+ *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.4/2.4a%20-%20Figure%2024.png)*[#]**(external link)
+ 
+*[Source code: Lib/Pickle.png*[#]**(external link)
+ *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.5/2.5b_Figure-29.png)*[#]**(external link)
+ *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.5/2.5c_Figure-31.png)*[#]**(external link)
+ *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.5/2.5d_Figure-33.png)*[#]**(external link)
+ *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.5/2.5d_Figure-34.png)*[#]**(external link)
+ *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.5/2.5e_Figure-36.png)*[#]**(external link)
+ *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/Warning%20messages/Figure%2014.png)*[#]**(external link)
+ *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/Warning%20messages/Figure%2015.png)*[#]**(external link)
+ *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/Warning%20messages/Figure%2018.png)*[#]**(external link)
+
  Date: 11.21.19
  
  Descprition: File & Assignemnet documents for Module07
