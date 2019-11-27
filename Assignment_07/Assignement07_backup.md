@@ -1,3 +1,6 @@
+
+# Exception Handling & Pickling
+
 Kate Stevens
 
 November 20, 2019
@@ -6,7 +9,6 @@ IT FDN 100 A
 
 Assignment07
 
-Exception Handling & Pickling
 
 *Assignment07: Research and document your knowledge about the use and benefits of the Pickle module and exception handling in Python. The full assignment and further notes following this week’s discussions can be viewed or downloaded here: *[Assigment07.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973247)*[64]** (external link), *[_Mod7PythonProgrammingNotes.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973246)* **[65]** **(external link).*
 
@@ -549,7 +551,8 @@ Listing 21
 
 ## *2.3(b) Saving Classifiers with NLTK*
 
-<icon>![image alt text](image_20.png) *Video Tutorial Reference:** [26]** **Sentdex," Pythonprogramming.net, 2019. [Online]. Available: https://pythonprogramming.net/pickle-classifier-save-nltk-tutorial/***
+<icon>![image alt text](image_20.png) *Video Tutorial Reference:** [26]** **Sentdex," Pythonprogramming.net, 2019. [Online]. Available: https://pythonprogramming.net/pickle-classifier-save-nltk-tutorial/**
+*
 
 Training classifiers and machine learning algorithms can take a very long time, especially if you're training against a larger data set. Ours is actually pretty small. Can you imagine having to train the classifier every time you wanted to fire it up and use it? What horror! Instead, what we can do is use the Pickle module to go ahead and serialize our classifier object, so that all we need to do is load that file in real quick.
 
@@ -623,15 +626,18 @@ Listing 25
 
 # *Constants provided by the pickle module :*
 
-* pickle.HIGHEST_PROTOCOLThis is an integer value representing the highest protocol version available. This is considered as the protocol value which is passed to the functions dump(), dumps().
+* pickle.HIGHEST_PROTOCOL
+This is an integer value representing the highest protocol version available. This is considered as the protocol value which is passed to the functions dump(), dumps().
 
-* pickle.DEFAULT_PROTOCOLThis is an integer value representing the default protocol used for pickling whose value may be less than the value of highest protocol.
+* pickle.DEFAULT_PROTOCOL
+This is an integer value representing the default protocol used for pickling whose value may be less than the value of highest protocol.
 
 *Functions provided by the pickle module :*
 
 * *pickle.dump(obj, file, protocol = None, *, fix_imports = True)*
 
-* **This function is equivalent to Pickler (file, protocol).dump(obj). This is used to write a pickled representation of obj to the open file object file.
+* *
+*This function is equivalent to Pickler (file, protocol).dump(obj). This is used to write a pickled representation of obj to the open file object file.
 
 * The optional protocol argument is an integer that tells the pickler to use the given protocol.
 
@@ -729,21 +735,26 @@ Figure 33
 
 *Exceptions provided by the pickle module :*
 
-* 1.exception pickle.PickleErrorThis exception inherits Exception. It is the base class for all other exceptions raised in pickling.
+* 1.exception pickle.PickleError
+This exception inherits Exception. It is the base class for all other exceptions raised in pickling.
 
-* 2.exception pickle.PicklingErrorThis exception inherits PickleError. This exception is raised when an unpicklable object is encountered by Pickler.
+* 2.exception pickle.PicklingError
+This exception inherits PickleError. This exception is raised when an unpicklable object is encountered by Pickler.
 
-* 3.exception pickle.UnpicklingErrorThis exception inherits PickleError. This exception is raised when there is a problem like data corruption or a security violation while unpickling an object.
+* 3.exception pickle.UnpicklingError
+This exception inherits PickleError. This exception is raised when there is a problem like data corruption or a security violation while unpickling an object.
 
 # Classes exported by the pickle module:
 
-1. class pickle.Pickler(file, protocol = None, *, fix_imports = True)This class takes a binary file for writing a pickle data stream.
+1. class pickle.Pickler(file, protocol = None, *, fix_imports = True)
+This class takes a binary file for writing a pickle data stream.
 
 * 1.dump(obj) – This function is used to write a pickled representation of obj to the open file object given in the constructor.
 
 * *2.persistent_id(obj) –* If persistent_id() returns None, obj is pickled as usual. This does nothing by deafult and exists so that any subclass can override it.
 
-* 3.Dispatch_table – A pickler object’s dispatch table is a mapping whose keys are classes and whose values are reduction functions.By default, a pickler object will not have a dispatch_table attribute, and it will instead use the global dispatch table managed by the copyreg module.
+* 3.Dispatch_table – A pickler object’s dispatch table is a mapping whose keys are classes and whose values are reduction functions.
+By default, a pickler object will not have a dispatch_table attribute, and it will instead use the global dispatch table managed by the copyreg module.
 
 Example : The below code creates an instance of pickle.Pickler with a private dispatch table handles the SomeClass class specially..
 
@@ -761,7 +772,8 @@ Figure 34
 
 * *4.Fast –*** **The fast mode disables the usage of memo and speeds up the pickling process by not generating superfluous PUT opcodes.
 
-*2. class pickle.Unpickler(file, *, fix_imports = True, encoding = "ASCII", errors = “strict”)* This class takes a binary file for reading a pickle data stream.
+*2. class pickle.Unpickler(file, *, fix_imports = True, encoding = "ASCII", errors = “strict”)*
+ This class takes a binary file for reading a pickle data stream.
 
 * *1.load() –*** **This function is used to read a pickled object representation from the open file object file and return the reconstituted object hierarchy specified.
 
@@ -769,7 +781,8 @@ Figure 34
 
 * *3.find_class(module, name) –*** **This function imports module if required and returns the object called name from it, where the module and name arguments are str objects.
 
-What can be pickled and unpickled?The following types can be pickled :
+What can be pickled and unpickled?
+The following types can be pickled :
 
 * None, True, and False
 
@@ -787,25 +800,34 @@ What can be pickled and unpickled?The following types can be pickled :
 
 * instances of such classes whose __dict__ or the result of calling __getstate__() is picklable
 
-Pickling Class Instances :This section explains the general mechanisms available to define, customize, and control how class instances are pickled and unpickled.No additional code is needed to make instances picklable. By default, pickle will retrieve the class and the attributes of an instance via introspection.
+Pickling Class Instances :
+This section explains the general mechanisms available to define, customize, and control how class instances are pickled and unpickled.
+No additional code is needed to make instances picklable. By default, pickle will retrieve the class and the attributes of an instance via introspection.
 
 Classes can alter the default behavior by providing one or several special methods :
 
-* object.__getnewargs_ex__()This method dictates the values passed to the __new__() method upon unpickling. The method must return a pair (args, kwargs) where args is a tuple of positional arguments and kwargs a dictionary of named arguments for constructing the object.
+* object.__getnewargs_ex__()
+This method dictates the values passed to the __new__() method upon unpickling. The method must return a pair (args, kwargs) where args is a tuple of positional arguments and kwargs a dictionary of named arguments for constructing the object.
 
-* object.__getnewargs__()This method supports only positive arguments. It must return a tuple of arguments args which will be passed to the __new__() method upon unpickling.
+* object.__getnewargs__()
+This method supports only positive arguments. It must return a tuple of arguments args which will be passed to the __new__() method upon unpickling.
 
-* object.__getstate__()If this method is defined by classes, it is called and the returned object is pickled as the contents for the instance, instead of the contents of the instance’s dictionary.
+* object.__getstate__()
+If this method is defined by classes, it is called and the returned object is pickled as the contents for the instance, instead of the contents of the instance’s dictionary.
 
-* object.__setstate__(state)If this method is defined by classes, it is called with the unpickled state. The pickled state must be a dictionary and its items are assigned to the new instance’s dictionary.
+* object.__setstate__(state)
+If this method is defined by classes, it is called with the unpickled state. The pickled state must be a dictionary and its items are assigned to the new instance’s dictionary.
 
-* object.__reduce__()The __reduce__() method takes no argument and shall return either a string or preferably a tuple.
+* object.__reduce__()
+The __reduce__() method takes no argument and shall return either a string or preferably a tuple.
 
-* object.__reduce_ex__(protocol)This method is similar to __reduce__ method. 
+* object.__reduce_ex__(protocol)
+This method is similar to __reduce__ method. 
 
 * It takes a single integer argument. The main use for this method is to provide backwards-compatible reduce values for older Python releases.
 
-Example : Handling Stateful ObjectsThis example shows how to modify pickling behavior for a class. The TextReader class opens a text file, and returns the line number and line *contents each time its readline() method is called.*
+Example : Handling Stateful Objects
+This example shows how to modify pickling behavior for a class. The TextReader class opens a text file, and returns the line number and line *contents each time its readline() method is called.*
 
 * *1.If a TextReader instance is pickled, all attributes except the file object member are saved.*
 
