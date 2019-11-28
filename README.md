@@ -11,8 +11,8 @@
  
  Assignment07
  
- ![Pickling | Figure 2.5](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.5/2.5%20pickling%20and%20scaling%20code%20example.png "Pickling | Figure 2.5")  
-Pickling | Figure 2.5
+ ![Pickling | Figure 2.5-1](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.5/2.5%20pickling%20and%20scaling%20code%20example.png "Pickling | Figure 2.5")  
+Pickling | Figure 2.5-2ND
 
 
 ![Pickling | Figure 2.1](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.1/2.1-copyreg_example.PNG "Pickling | Figure 2.1")  Pickling | Figure 2.1
